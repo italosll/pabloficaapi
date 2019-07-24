@@ -59,7 +59,9 @@ enviado na request tenha expirado.
 ## Paciente [/paciente]
 
 ### getAllPaciente( ) [GET]
-+ Request Listar Todos os Pacientes 
+
++ Request Listar Todos os Pacientes
+ 
     + Headers
                 
             Authentication: Bearer JWT
@@ -77,12 +79,14 @@ enviado na request tenha expirado.
 
 ### insertPaciente( ) [POST]
 
-+ Request Inserir Paciente 
-        + Headers
++ Request Inserir Paciente
 
-        Authentication: Bearer JWT
-    
-        + Schema
+    + Headers
+                
+            Authentication: Bearer JWT
+
+
+    + Schema
 
             {}
 
@@ -106,7 +110,8 @@ enviado na request tenha expirado.
     + Headers
                 
             Authentication: Bearer JWT
-    
+
+
     + Schema
 
             {}
@@ -130,7 +135,8 @@ enviado na request tenha expirado.
     + Headers
                 
             Authentication: Bearer JWT
-    
+
+
     + Schema
 
             {}
@@ -147,8 +153,6 @@ enviado na request tenha expirado.
 
             {}
 
-            # Group Paciente
-
 
 # Group Exame
 
@@ -160,6 +164,11 @@ enviado na request tenha expirado.
     + Headers
                 
             Authentication: Bearer JWT
+
+
+    + Schema
+
+            {}
 
 + Response 200 (application/json)
     + Headers
@@ -176,11 +185,12 @@ enviado na request tenha expirado.
 ### insertExame( ) [POST]
 
 + Request Inserir Exame 
-        + Headers
+    + Headers
+                
+            Authentication: Bearer JWT
 
-        Authentication: Bearer JWT
-    
-        + Schema
+
+    + Schema
 
             {}
 
@@ -259,6 +269,11 @@ enviado na request tenha expirado.
                 
             Authentication: Bearer JWT
 
+
+    + Schema
+
+            {}
+
 + Response 200 (application/json)
     + Headers
             
@@ -273,11 +288,12 @@ enviado na request tenha expirado.
 ### insertConsulta( ) [POST]
 
 + Request Inserir Consulta 
-        + Headers
+    + Headers
+                
+            Authentication: Bearer JWT
 
-        Authentication: Bearer JWT
-    
-        + Schema
+
+    + Schema
 
             {}
 
@@ -368,13 +384,15 @@ enviado na request tenha expirado.
 ### insertExercicio( ) [POST]
 
 + Request Inserir Exercicio 
-        + Headers
+    + Headers
+                
+            Authentication: Bearer JWT
 
-        Authentication: Bearer JWT
-    
-        + Schema
+
+    + Schema
 
             {}
+
 
     + Attributes (Exercicio)
     
@@ -462,13 +480,15 @@ enviado na request tenha expirado.
 ### insertImc( ) [POST]
 
 + Request Inserir Imc 
-        + Headers
 
-        Authentication: Bearer JWT
-    
-        + Schema
+    + Headers
+                
+            Authentication: Bearer JWT
+
+    + Schema
 
             {}
+
 
     + Attributes (Imc)
     
